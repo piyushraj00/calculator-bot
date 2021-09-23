@@ -22,7 +22,7 @@ START_TEXT = """
 
 Made With ❣️ By @YoutubeVideoDownloaderService**
 """
-START_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(' ⚙️ Updates Channel ⚙', url='https://telegram.me/YoutubeVideoDownloaderService'),[InlineKeyboardButton(' ⚜️ Support Group ⚜️', url='https://telegram.me/VCMusicGroup')]])
+START_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(' ⚙️ Updates Channel ⚙', url='https://telegram.me/YoutubeVideoDownloaderService'),InlineKeyboardButton(' ⚜️ Support Group ⚜️', url='https://telegram.me/VCMusicGroup')]])
 CALCULATE_TEXT = "**Made With ❣️ By @YoutubeVideoDownloaderService**"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
