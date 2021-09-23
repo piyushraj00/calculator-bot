@@ -18,16 +18,12 @@ Bot = Client(
 
 
 START_TEXT = """
-Hello {}, I am a simple calculator telegram bot. Send me /calculator.
+👋 **Hello {}, I am a simple calculator telegram bot. Use /calculator To Open Calculater.
 
-Made by @FayasNoushad
+Made With ❣️ By @YoutubeVideoDownloaderService**
 """
-START_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
-        ]]
-    )
-CALCULATE_TEXT = "Made by @FayasNoushad"
+START_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(' ⚙️ Updates Channel ⚙', url='https://telegram.me/YoutubeVideoDownloaderService'),[InlineKeyboardButton(' ⚜️ Support Group ⚜️', url='https://telegram.me/VCMusicGroup')]])
+CALCULATE_TEXT = "**Made With ❣️ By @YoutubeVideoDownloaderService**"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton("DEL", callback_data="DEL"),
